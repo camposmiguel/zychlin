@@ -7,4 +7,7 @@ $( document ).ready(function() {
     $(document).on("click","#lightButtonOn",function(){
       $("body").css("background-color","white");
     });
+
+    var message = $("p").text();
+    alert(message);
 });

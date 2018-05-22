@@ -4,4 +4,5 @@ $( document ).ready(function() {
     // # >>> id
     $("#firstParagraph").css("color","red");
     $("#secondParagraph").css("color","blue");
+
 });
